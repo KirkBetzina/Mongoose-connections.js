@@ -1,8 +1,8 @@
 // import mongoose
 const mongoose = require('mongoose')
 
-//connection URI
-const mongoURI = 'mongodb://localhost:27017' + 'tweets'
+//connection URI                                      CONNECTION
+const mongoURI = 'mongodb://localhost:27017' + 'CHANGE THIS FOR EACH PROJECT'
 
 /// configs
 const config = {
