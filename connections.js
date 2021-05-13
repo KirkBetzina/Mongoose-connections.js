@@ -15,7 +15,7 @@ mongoose.connect(mongoURI, config)
 // connect to the DB connection
 const db = mongoose.connection
 // additional connection messages
-db.on('error', (err) => console.log(err.message + ' is mongod not running')
+db.on('error', (err) => console.log(err.message + ' is mongod not running'))
 db.on('connected', () => console.log('mongo connected: ', mongoURI))
 db.on('disconnected', () => console.log('mongo disconnected'))
 
